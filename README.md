@@ -2,7 +2,8 @@
 Tensorflow implementation of DenseNet for general classification problems
 
 ## Usage
-Initialization
+
+### Initialization
 ```python
 """
   Args:
@@ -43,7 +44,7 @@ with tf.Session as sess:
 
 ```
 
-Train & Prediction
+### Train & Prediction
 ```python
 """
 Args :
@@ -76,4 +77,4 @@ python test.py
 ## References
 - [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993)
 - [DenseNet Torch implementation](https://github.com/liuzhuang13/DenseNet)
-- [Densenet TensorFlow implementation](https://github.com/YixuanLi/densenet-tensorflow)
+- [DenseNet TensorFlow implementation](https://github.com/YixuanLi/densenet-tensorflow)
