@@ -27,6 +27,7 @@ Tensorflow implementation of DenseNet for general classification problems
     l : 
       An integer or a 4-length list.
       How many layers for each block.
+      The default is [6, 12, 24, 16]. 
     keep_prop :
       Keep proportion of DropOut.
       The default option is 'not using DropOut'

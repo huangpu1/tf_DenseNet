@@ -26,19 +26,20 @@ class DenseNet(object):
           The default is True.
         im_shape :
           A 3-length list.
-          The defualt is [224, 224, 3]
+          The defualt is [224, 224, 3].
         k : 
           An integer.
           Growth rate of dense blocks.
         l : 
           An integer or a 4-length list.
           How many layers for each block.
+          The default is [6, 12, 24, 16]. 
         keep_prop :
           Keep proportion of DropOut.
-          The default option is 'not using DropOut.'
+          The default option is 'not using DropOut'.
         optim :
           TensorFlow Optimizer
-          The default is AdamOptimizer(learning_rate=1e-4)
+          The default is AdamOptimizer(learning_rate=1e-4).
     """
     self.sess = sess
     self.cls = ClsModule("cls", is_train)
